@@ -15,12 +15,15 @@ class CreateCompaniesTable extends Migration
     public function up()
     {
         Schema::create('companies', function (Blueprint $table) {
-            $table->uuid('id')->primary();
+//            $table->uuid('id')->primary();
             $table->string('name');
             $table->string('database')->unique();
             $table->string('prefix')->unique();
             $table->timestamps();
         });
+
+        DB::statement('ALTER TABLE `companies` ADD `id` BINARY(16) FIRST');
+        DB::statement('ALTER TABLE `companies` ADD PRIMARY KEY (`id`)');
     }
 
     /**

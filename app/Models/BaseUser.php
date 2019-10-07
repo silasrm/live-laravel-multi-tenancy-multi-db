@@ -2,14 +2,23 @@
 
 namespace App\Models;
 
-use App\Models\Traits\Uuid;
+use Alsofronie\Uuid\UuidBinaryModelTrait;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+/**
+ * Class BaseUser
+ * @package App\Models
+ */
 class BaseUser extends Authenticatable
 {
-    use Notifiable, Uuid;
+    use Notifiable, UuidBinaryModelTrait;
+
+    /**
+     * @var bool
+     */
+    protected static $uuidOptimization = true;
 
     /**
      * The attributes that are mass assignable.

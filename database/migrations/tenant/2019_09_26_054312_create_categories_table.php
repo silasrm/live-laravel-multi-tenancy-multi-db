@@ -14,10 +14,13 @@ class CreateCategoriesTable extends Migration
     public function up()
     {
         Schema::create('categories', function (Blueprint $table) {
-            $table->uuid('id')->primary();
+//            $table->uuid('id')->primary();
             $table->string('name');
             $table->timestamps();
         });
+
+        DB::statement('ALTER TABLE `categories` ADD `id` BINARY(16) FIRST');
+        DB::statement('ALTER TABLE `categories` ADD PRIMARY KEY (`id`)');
     }
 
     /**

@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211b6f7d-8b07-41da-bf78-c5088353ff8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/MakeSystemMigration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/MakeTenantMigration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/ide-helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/sluggable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/web-tinker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-multitenancy-multidb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-multitenancy-multidb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/BaseUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BaseUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/UserSystem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/UserSystem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/UserTenant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/UserTenant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/system/2014_10_12_000000_create_system_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/system/2014_10_12_000000_create_system_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/system/2019_09_25_063559_create_companies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/system/2019_09_25_063559_create_companies_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/tenant/2014_10_12_000000_create_tenant_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/tenant/2014_10_12_000000_create_tenant_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/tenant/2019_09_26_054312_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/tenant/2019_09_26_054312_create_categories_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +35,136 @@
       <executable />
     </execution>
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/BaseUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding>
+                <element signature="e#30#71#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="e#30#71#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Company.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="e#30#71#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/UserSystem.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/UserTenant.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Console/Commands/SeedTenant.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Console/Commands/MakeSystemMigration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/tenant/2014_10_12_000000_create_tenant_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+              <folding>
+                <element signature="e#7#52#0#PHP" expanded="true" />
+                <element signature="e#324#666#1#PHP" expanded="true" />
+                <element signature="e#324#666#1#PHP" expanded="true" />
+                <element signature="e#324#666#1#PHP" expanded="true" />
+                <element signature="e#324#666#1#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>providers'</find>
+      <find>also</find>
+      <find>eloque</find>
+      <find>slug</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/database/migrations/system/2014_10_12_000000_create_system_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/system/2019_09_25_063559_create_companies_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/tenant/2014_10_12_000000_create_tenant_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/tenant/2019_09_26_054312_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/app/Models/BaseUser.php" />
+        <option value="$PROJECT_DIR$/app/Models/Category.php" />
+        <option value="$PROJECT_DIR$/app/Models/Company.php" />
+        <option value="$PROJECT_DIR$/app/Models/UserSystem.php" />
+        <option value="$PROJECT_DIR$/app/Models/UserTenant.php" />
+        <option value="$PROJECT_DIR$/app/Console/Commands/MakeTenantMigration.php" />
+        <option value="$PROJECT_DIR$/app/Console/Commands/MakeSystemMigration.php" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -118,13 +265,109 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-web-tinker" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition-tinker-tab" />
+      <path value="$PROJECT_DIR$/vendor/alsofronie/eloquent-uuid" />
+      <path value="$PROJECT_DIR$/vendor/webpatser/laravel-uuid" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
+      <path value="$PROJECT_DIR$/vendor/itsgoingd/clockwork" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/awt/apilogger" />
     </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="170" />
+    <option name="y" value="96" />
+    <option name="width" value="996" />
+    <option name="height" value="579" />
   </component>
   <component name="ProjectId" id="1RIftPjmU4nd9stWh5h1jVNU7g1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Traits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="tenant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-laravel-multi-tenancy-multi-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-laravel-multi-tenancy-multi-db" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Console/Commands" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -133,11 +376,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Console/Commands" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\argen\Desktop\laravel-multitenancy-multidb" />
       <recent name="C:\Users\argen\Desktop\laravel-multitenancy-multidb\resources\views\tenant" />
       <recent name="C:\Users\argen\Desktop\laravel-multitenancy-multidb\resources\views\system" />
-      <recent name="C:\Users\argen\Desktop\laravel-multitenancy-multidb\resources\views\layouts" />
-      <recent name="C:\Users\argen\Desktop\laravel-multitenancy-multidb\database\seeds" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\argen\Desktop\laravel-multitenancy-multidb\database\migrations\tenant" />
@@ -169,8 +412,39 @@
       <workItem from="1569359745810" duration="19129000" />
       <workItem from="1569427254149" duration="11571000" />
       <workItem from="1569518014521" duration="5473000" />
+      <workItem from="1569805878731" duration="2044000" />
+      <workItem from="1569947260938" duration="2398000" />
+      <workItem from="1569964830787" duration="8000" />
+      <workItem from="1570401386425" duration="1253000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5703000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="50" y="27" width="1870" height="1053" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25822368" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -180,10 +454,341 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="149" column="59" selection-start-line="149" selection-start-column="59" selection-end-line="149" selection-end-column="59" />
+          <folding>
+            <element signature="e#4905#4921#0#PHP" expanded="true" />
+            <element signature="e#4957#4981#0#PHP" expanded="true" />
+            <element signature="e#5022#5037#0#PHP" expanded="true" />
+            <element signature="e#5072#5089#0#PHP" expanded="true" />
+            <element signature="e#5126#5158#0#PHP" expanded="true" />
+            <element signature="e#5204#5222#0#PHP" expanded="true" />
+            <element signature="e#5260#5280#0#PHP" expanded="true" />
+            <element signature="e#5320#5342#0#PHP" expanded="true" />
+            <element signature="e#5384#5406#0#PHP" expanded="true" />
+            <element signature="e#5448#5480#0#PHP" expanded="true" />
+            <element signature="e#5522#5541#0#PHP" expanded="true" />
+            <element signature="e#5577#5593#0#PHP" expanded="true" />
+            <element signature="e#5629#5654#0#PHP" expanded="true" />
+            <element signature="e#5698#5720#0#PHP" expanded="true" />
+            <element signature="e#5762#5782#0#PHP" expanded="true" />
+            <element signature="e#5822#5839#0#PHP" expanded="true" />
+            <element signature="e#5876#5893#0#PHP" expanded="true" />
+            <element signature="e#5930#5956#0#PHP" expanded="true" />
+            <element signature="e#6001#6020#0#PHP" expanded="true" />
+            <element signature="e#6059#6082#0#PHP" expanded="true" />
+            <element signature="e#6125#6147#0#PHP" expanded="true" />
+            <element signature="e#6189#6205#0#PHP" expanded="true" />
+            <element signature="e#6305#6331#0#PHP" expanded="true" />
+            <element signature="e#7567#7594#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="1066" column="20" selection-start-line="1066" selection-start-column="20" selection-end-line="1066" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/system/2019_08_19_000000_create_failed_jobs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="e#322#619#1#PHP" expanded="true" />
+            <element signature="e#322#619#1#PHP" expanded="true" />
+            <element signature="e#322#619#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/system/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="e#330#509#1#PHP" expanded="true" />
+            <element signature="e#330#509#1#PHP" expanded="true" />
+            <element signature="e#330#509#1#PHP" expanded="true" />
+            <element signature="e#330#509#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/system/2014_10_12_000000_create_system_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="27" selection-end-column="75" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="e#325#667#1#PHP" expanded="true" />
+            <element signature="e#325#667#1#PHP" expanded="true" />
+            <element signature="e#325#667#1#PHP" expanded="true" />
+            <element signature="e#325#667#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/system/2019_09_25_063559_create_companies_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="25" selection-end-column="72" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="e#320#572#1#PHP" expanded="true" />
+            <element signature="e#320#572#1#PHP" expanded="true" />
+            <element signature="e#320#572#1#PHP" expanded="true" />
+            <element signature="e#320#572#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#248#260#0#PHP" expanded="true" />
+            <element signature="e#321#480#2#PHP" expanded="true" />
+            <element signature="e#321#480#2#PHP" expanded="true" />
+            <element signature="e#321#480#2#PHP" expanded="true" />
+            <element signature="e#321#480#2#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Traits/Uuid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#212#283#2#PHP" expanded="true" />
+            <element signature="e#212#283#2#PHP" expanded="true" />
+            <element signature="e#212#283#2#PHP" expanded="true" />
+            <element signature="e#212#283#2#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/tenant/2019_09_26_054312_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="e#321#475#1#PHP" expanded="true" />
+            <element signature="e#321#475#1#PHP" expanded="true" />
+            <element signature="e#321#475#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#31#74#0#PHP" expanded="true" />
+            <element signature="e#756#788#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/MakeTenantMigration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/BaseCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" column="68" lean-forward="true" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/stubs/blank.stub">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/stubs/create.stub">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/MigrationCreator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="100" column="38" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="38" />
+          <folding>
+            <element signature="e#50#62#0#PHP" expanded="true" />
+            <element signature="e#637#649#0#PHP" expanded="true" />
+            <element signature="e#1005#1052#0#PHP" expanded="true" />
+            <element signature="e#1318#1349#0#PHP" expanded="true" />
+            <element signature="e#1360#1372#0#PHP" expanded="true" />
+            <element signature="e#1399#1427#0#PHP" expanded="true" />
+            <element signature="e#1441#1482#0#PHP" expanded="true" />
+            <element signature="e#1756#1790#0#PHP" expanded="true" />
+            <element signature="e#2124#2150#0#PHP" expanded="true" />
+            <element signature="e#2511#2523#0#PHP" expanded="true" />
+            <element signature="e#2529#2546#0#PHP" expanded="true" />
+            <element signature="e#2891#2903#0#PHP" expanded="true" />
+            <element signature="e#2909#2926#0#PHP" expanded="true" />
+            <element signature="e#3248#3274#0#PHP" expanded="true" />
+            <element signature="e#4098#4120#0#PHP" expanded="true" />
+            <element signature="e#4344#4361#0#PHP" expanded="true" />
+            <element signature="e#4615#4632#0#PHP" expanded="true" />
+            <element signature="e#5153#5165#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateMakeCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
+          <folding>
+            <element signature="e#58#110#0#PHP" expanded="true" />
+            <element signature="e#1468#1482#0#PHP" expanded="true" />
+            <element signature="e#1503#1518#0#PHP" expanded="true" />
+            <element signature="e#1926#1938#0#PHP" expanded="true" />
+            <element signature="e#1981#1993#0#PHP" expanded="true" />
+            <element signature="e#2034#2046#0#PHP" expanded="true" />
+            <element signature="e#3021#3066#0#PHP" expanded="true" />
+            <element signature="e#3077#3092#0#PHP" expanded="true" />
+            <element signature="e#3378#3392#0#PHP" expanded="true" />
+            <element signature="e#3421#3446#0#PHP" expanded="true" />
+            <element signature="e#3490#3515#0#PHP" expanded="true" />
+            <element signature="e#3594#3648#0#PHP" expanded="true" />
+            <element signature="e#3871#3883#0#PHP" expanded="true" />
+            <element signature="e#3928#3950#0#PHP" expanded="true" />
+            <element signature="e#3981#3995#0#PHP" expanded="true" />
+            <element signature="e#4300#4312#0#PHP" expanded="true" />
+            <element signature="e#4339#4364#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/BaseUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#30#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#30#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#30#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/UserSystem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/UserTenant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/SeedTenant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/MakeSystemMigration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/tenant/2014_10_12_000000_create_tenant_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="e#324#666#1#PHP" expanded="true" />
+            <element signature="e#324#666#1#PHP" expanded="true" />
+            <element signature="e#324#666#1#PHP" expanded="true" />
+            <element signature="e#324#666#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

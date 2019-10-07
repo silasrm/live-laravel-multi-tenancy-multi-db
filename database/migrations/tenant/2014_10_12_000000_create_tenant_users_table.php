@@ -14,7 +14,7 @@ class CreateTenantUsersTable extends Migration
     public function up()
     {
         Schema::create('tenant_users', function (Blueprint $table) {
-            $table->uuid('id')->primary();
+//            $table->uuid('id')->primary();
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
@@ -22,6 +22,9 @@ class CreateTenantUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+
+        DB::statement('ALTER TABLE `tenant_users` ADD `id` BINARY(16) FIRST');
+        DB::statement('ALTER TABLE `tenant_users` ADD PRIMARY KEY (`id`)');
     }
 
     /**

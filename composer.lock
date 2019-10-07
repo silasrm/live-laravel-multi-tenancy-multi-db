@@ -4,8 +4,209 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ebcea2fc89c53ff33793e096ccc048b8",
+    "content-hash": "e117572976c9158ade44873d13f5c77c",
     "packages": [
+        {
+            "name": "alsofronie/eloquent-uuid",
+            "version": "v1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alsofronie/eloquent-uuid.git",
+                "reference": "90e5a41dca5d48dfa09006718a68a9d6be596f57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alsofronie/eloquent-uuid/zipball/90e5a41dca5d48dfa09006718a68a9d6be596f57",
+                "reference": "90e5a41dca5d48dfa09006718a68a9d6be596f57",
+                "shasum": ""
+            },
+            "require": {
+                "webpatser/laravel-uuid": "2.*"
+            },
+            "require-dev": {
+                "laravel/framework": "^5.1.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Alsofronie\\Uuid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Sofronie",
+                    "email": "alsofronie@gmail.com"
+                }
+            ],
+            "description": "A Laravel Eloquent Model trait for using UUID's as primary keys",
+            "time": "2017-07-20T18:09:53+00:00"
+        },
+        {
+            "name": "awt/apilogger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aungwinthant/apilogger.git",
+                "reference": "4726bc2eb7332f16e88536911490e38cbddbf0aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aungwinthant/apilogger/zipball/4726bc2eb7332f16e88536911490e38cbddbf0aa",
+                "reference": "4726bc2eb7332f16e88536911490e38cbddbf0aa",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AWT\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "aung win thant",
+                    "email": "agwinthant@gmail.com"
+                }
+            ],
+            "description": "Small laravel package for viewing api logs which can be used in debugging.",
+            "time": "2019-09-20T18:57:38+00:00"
+        },
+        {
+            "name": "cocur/slugify",
+            "version": "v3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cocur/slugify.git",
+                "reference": "d41701efe58ba2df9cae029c3d21e1518cc6780e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cocur/slugify/zipball/d41701efe58ba2df9cae029c3d21e1518cc6780e",
+                "reference": "d41701efe58ba2df9cae029c3d21e1518cc6780e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "laravel/framework": "~5.1",
+                "latte/latte": "~2.2",
+                "league/container": "^2.2.0",
+                "mikey179/vfsstream": "~1.6",
+                "mockery/mockery": "~0.9",
+                "nette/di": "~2.2",
+                "phpunit/phpunit": "~4.8.36|~5.2",
+                "pimple/pimple": "~1.1",
+                "plumphp/plum": "~0.1",
+                "silex/silex": "~1.3",
+                "symfony/config": "~2.4|~3.0|~4.0",
+                "symfony/dependency-injection": "~2.4|~3.0|~4.0",
+                "symfony/http-kernel": "~2.4|~3.0|~4.0",
+                "twig/twig": "~1.26|~2.0",
+                "zendframework/zend-modulemanager": "~2.2",
+                "zendframework/zend-servicemanager": "~2.2",
+                "zendframework/zend-view": "~2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cocur\\Slugify\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivo Bathke",
+                    "email": "ivo.bathke@gmail.com"
+                },
+                {
+                    "name": "Florian Eckerstorfer",
+                    "email": "florian@eckerstorfer.co",
+                    "homepage": "https://florian.ec"
+                }
+            ],
+            "description": "Converts a string into a slug.",
+            "keywords": [
+                "slug",
+                "slugify"
+            ],
+            "time": "2019-01-31T20:38:55+00:00"
+        },
+        {
+            "name": "cviebrock/eloquent-sluggable",
+            "version": "6.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cviebrock/eloquent-sluggable.git",
+                "reference": "509ced3930aed5ba327ab1d60a1c741c6018f934"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cviebrock/eloquent-sluggable/zipball/509ced3930aed5ba327ab1d60a1c741c6018f934",
+                "reference": "509ced3930aed5ba327ab1d60a1c741c6018f934",
+                "shasum": ""
+            },
+            "require": {
+                "cocur/slugify": "^3.2",
+                "illuminate/config": "^6.0",
+                "illuminate/database": "^6.0",
+                "illuminate/support": "^6.0",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "limedeck/phpunit-detailed-printer": "^5.0",
+                "mockery/mockery": "^1.2.3",
+                "orchestra/database": "4.*",
+                "orchestra/testbench": "4.*",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Cviebrock\\EloquentSluggable\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cviebrock\\EloquentSluggable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Colin Viebrock",
+                    "email": "colin@viebrock.ca"
+                }
+            ],
+            "description": "Easy creation of slugs for your Eloquent models in Laravel",
+            "homepage": "https://github.com/cviebrock/eloquent-sluggable",
+            "keywords": [
+                "eloquent",
+                "eloquent-sluggable",
+                "laravel",
+                "lumen",
+                "slug",
+                "sluggable"
+            ],
+            "time": "2019-09-14T02:58:44+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -381,6 +582,64 @@
             "time": "2019-09-03T16:45:42+00:00"
         },
         {
+            "name": "itsgoingd/clockwork",
+            "version": "v4.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itsgoingd/clockwork.git",
+                "reference": "bd42abf556ebac54d004b33ea4f116bd9f213eeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itsgoingd/clockwork/zipball/bd42abf556ebac54d004b33ea4f116bd9f213eeb",
+                "reference": "bd42abf556ebac54d004b33ea4f116bd9f213eeb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "psr/log": "1.*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Clockwork\\Support\\Laravel\\ClockworkServiceProvider"
+                    ],
+                    "aliases": {
+                        "Clockwork": "Clockwork\\Support\\Laravel\\Facade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Clockwork\\": "Clockwork/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "itsgoingd",
+                    "email": "itsgoingd@luzer.sk",
+                    "homepage": "https://twitter.com/itsgoingd"
+                }
+            ],
+            "description": "php dev tools integrated to your browser",
+            "homepage": "https://underground.works/clockwork",
+            "keywords": [
+                "Devtools",
+                "debugging",
+                "laravel",
+                "logging",
+                "lumen",
+                "profiling",
+                "slim"
+            ],
+            "time": "2019-09-28T20:56:38+00:00"
+        },
+        {
             "name": "jakub-onderka/php-console-color",
             "version": "v0.2",
             "source": {
@@ -675,6 +934,74 @@
                 "psysh"
             ],
             "time": "2019-08-07T15:10:45+00:00"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v6.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "2f181aba73390eec13d398bf57877b1cc3bc2588"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/2f181aba73390eec13d398bf57877b1cc3bc2588",
+                "reference": "2f181aba73390eec13d398bf57877b1cc3bc2588",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "6.0.*",
+                "illuminate/routing": "6.0.*",
+                "illuminate/session": "6.0.*",
+                "illuminate/support": "6.0.*",
+                "illuminate/view": "6.0.*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "illuminate/database": "6.0.*",
+                "mockery/mockery": "~1.0",
+                "phpunit/phpunit": "~7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Collective\\Html\\HtmlServiceProvider"
+                    ],
+                    "aliases": {
+                        "Form": "Collective\\Html\\FormFacade",
+                        "Html": "Collective\\Html\\HtmlFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                },
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "https://laravelcollective.com",
+            "time": "2019-09-23T06:16:50+00:00"
         },
         {
             "name": "league/flysystem",
@@ -2890,6 +3217,60 @@
                 "environment"
             ],
             "time": "2019-09-10T21:37:39+00:00"
+        },
+        {
+            "name": "webpatser/laravel-uuid",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webpatser/laravel-uuid.git",
+                "reference": "c87d5c631938edad7aae96d27881e3ea3de23d80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webpatser/laravel-uuid/zipball/c87d5c631938edad7aae96d27881e3ea3de23d80",
+                "reference": "c87d5c631938edad7aae96d27881e3ea3de23d80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "1.5.*",
+                "phpunit/phpunit": "4.7.*"
+            },
+            "suggest": {
+                "paragonie/random_compat": "A random_bytes Php 5.x polyfill."
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Uuid": "Webpatser\\Uuid\\Uuid"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Webpatser\\Uuid": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Kempen",
+                    "email": "christoph@downsized.nl"
+                }
+            ],
+            "description": "Class to generate a UUID according to the RFC 4122 standard. Support for version 1, 3, 4 and 5 UUID are built-in.",
+            "homepage": "https://github.com/webpatser/uuid",
+            "keywords": [
+                "UUID RFC4122"
+            ],
+            "time": "2017-09-10T21:34:32+00:00"
         }
     ],
     "packages-dev": [
@@ -4981,18 +5362,18 @@
             "authors": [
                 {
                     "name": "Geert Bergman",
-                    "role": "Project Author",
-                    "homepage": "http://www.scrivo.org/"
+                    "homepage": "http://www.scrivo.org/",
+                    "role": "Project Author"
                 },
                 {
                     "name": "Vladimir Jimenez",
-                    "role": "Contributor",
-                    "homepage": "https://allejo.io"
+                    "homepage": "https://allejo.io",
+                    "role": "Contributor"
                 },
                 {
                     "name": "Martin Folkers",
-                    "role": "Contributor",
-                    "homepage": "https://twobrain.io"
+                    "homepage": "https://twobrain.io",
+                    "role": "Contributor"
                 }
             ],
             "description": "Server side syntax highlighter that supports 185 languages. It's a PHP port of highlight.js",
@@ -5916,7 +6297,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "awt/apilogger": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

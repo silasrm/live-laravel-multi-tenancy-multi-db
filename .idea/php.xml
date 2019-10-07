@@ -99,7 +99,19 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-web-tinker" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition-tinker-tab" />
+      <path value="$PROJECT_DIR$/vendor/alsofronie/eloquent-uuid" />
+      <path value="$PROJECT_DIR$/vendor/webpatser/laravel-uuid" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
+      <path value="$PROJECT_DIR$/vendor/itsgoingd/clockwork" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/awt/apilogger" />
     </include_path>
+  </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="d1b9900b-8f6a-43bd-b9e1-4af43ea2fd49" name="PHP latest" home="$USER_HOME$/.PhpStorm2019.1/system/plugins/idea-php-latest-plugin/php-v7.3.1/php.sh" debugger_id="php.debugger.XDebug" />
+    </interpreters>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
   <component name="PhpUnit">

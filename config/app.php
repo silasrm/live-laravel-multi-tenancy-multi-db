@@ -167,6 +167,8 @@ return [
         /*
          * Package Service Providers...
          */
+        Clockwork\Support\Laravel\ClockworkServiceProvider::class,
+        AWT\Providers\ApiLogServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -228,6 +230,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Tenant' => TenantFacade::class,
+
+        'Clockwork' => Clockwork\Support\Laravel\Facade::class,
     ],
 
 ];
